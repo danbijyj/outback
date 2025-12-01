@@ -1,12 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React 기반으로 아웃백스테이크하우스 웹사이트를 구현한 프로젝트입니다. <br/>
+React Router로 라우팅을 구성하고, Pixabay API로 갤러리 데이터를 불러왔습니다. <br/>
+JSON 기반 게시판과 페이지네이션을 구현했으며, styled-components로 전역 스타일을 모듈화했습니다. <br/>
+슬라이더와 인터랙션 로직을 개선해 전체 UI 흐름을 최적화한 프론트엔드 중심 프로젝트입니다.
