@@ -7,7 +7,7 @@ import useAxios from '../hooks/useAxios';
 import { Container } from './style';
 
 const Gallery = () => {
-    const [text, setText] = useState('');
+    const [text, setText] = useState('steak');
     const API_URL = `50946295-7656ba2a3480c1534c0fb12c0`;
     const url = `https://pixabay.com/api/?key=${API_URL}&q=${text}&image_type=photo`;
     const { state, loading, error } = useAxios(url);

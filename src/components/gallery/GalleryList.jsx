@@ -10,7 +10,6 @@ const GalleryList = ({ data }) => {
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column"
             >
-                {/* array of JSX items */}
                 {data.map((item) => (
                     <GalleryItem key={item.id} item={item} />
                 ))}

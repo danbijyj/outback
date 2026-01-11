@@ -25,12 +25,6 @@ const GalleryInput = ({ onSearch }) => {
                     <img src="./images/search.png" alt="" />
                 </button>
             </p>
-            {/* <p>
-                <i>X</i>
-                <span>dog</span>
-                <span>cat</span>
-                <span>bird</span>
-            </p> */}
         </GalleryInputStyle>
     );
 };
