@@ -3,6 +3,10 @@ import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
+<<<<<<< HEAD
+=======
+  /* other styles */
+>>>>>>> 32960a3fa44a68b8984a91952bb7985840ad511f
   body {
     font-size: 16px;
     line-height: 1.6;
@@ -25,6 +29,10 @@ const GlobalStyle = createGlobalStyle`
 	box-sizing: border-box;
 	
   }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 32960a3fa44a68b8984a91952bb7985840ad511f
   .swiper {
   width: 100%;
   height: 100%;
@@ -34,6 +42,11 @@ const GlobalStyle = createGlobalStyle`
   text-align: center;
   font-size: 18px;
   background: #444;
+<<<<<<< HEAD
+=======
+
+  /* Center slide text vertically */
+>>>>>>> 32960a3fa44a68b8984a91952bb7985840ad511f
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +58,11 @@ const GlobalStyle = createGlobalStyle`
   height: 100%;
   object-fit: cover;
 }
+<<<<<<< HEAD
+=======
+
+ 
+>>>>>>> 32960a3fa44a68b8984a91952bb7985840ad511f
 `;
 
 export default GlobalStyle;
