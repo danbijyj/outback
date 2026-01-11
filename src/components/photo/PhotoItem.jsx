@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const PhotoItem = ({ item }) => {
-    const { id, nameeng, namekor, imgurl, desc, price, cut, grams } = item;
+    const { id, namekor, imgurl } = item;
     return (
         <li>
             <Link to={`/photo/${id}`}>
